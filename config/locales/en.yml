@@ -1,11 +1,24 @@
 en:
   english: "English"
   vietnamese: "Tiếng Việt"
+  layouts:
+    header:
+      home: "Home"
+      help: "Help"
+      login: "Login"
+    footer:
+      about: "About"
+      contact: "Contact"
+      news: "News"
+  users:
+    news:
+      sign_up: Sign up
   static_pages:
     home:
       home_title: "Home"
       home_detail_html: "This is the home page for the <a href='http://www.railstutorial.org/'>Ruby on Rails Tutorial
                         </a> sample application."
+      sign_up: "Sign up now!"
     help:
       help_title: "Help"
       help_detail_html: "Get help on the Ruby on Rails Tutorial at the

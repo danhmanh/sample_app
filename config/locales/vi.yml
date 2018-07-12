@@ -1,0 +1,19 @@
+vi:
+  english: "English"
+  vietnamese: "Tiếng Việt"
+  static_pages:
+    home:
+      home_title: "Trang chủ"
+      home_detail_html: "Đây là trang chủ của ứng dụng mẫu <a href='http://www.railstutorial.org/'>Ruby on Rails Tutorial</a> "
+    help:
+      help_title: "Trợ giúp"
+      help_detail_html: "Nhận trợ giúp về Ruby on Rails Tutorial tại <a href='http://www.railstutorial.org/help'>Khu vực trợ giúp của Rails Tutorial </a>"
+    about:
+      about_title: "Chi tiết"
+      about_detail_html: "<a href='http://www.railstutorial.org/'><em>Ruby on Rails
+                          Tutorial</em></a> là <a href='http://www.railstutorial.org/book'> một cuốn sách</a> và
+                          <a href='http://screencasts.railstutorial.org/'>screencast series</a> để dạy phát triển
+                           web với <a href='http://rubyonrails.org/'>Ruby on Rails</a>. Đây là ứng dụng mẫu của hướng dẫn này."
+    contact:
+      contact_title: "Liên hệ"
+      contact_detail_html: "Liên hệ Ruby on Rails Tutorial về ứng dụng mẫu tại <a href='http://www.railstutorial.org/contact'>trang liên hệ</a>."

@@ -1,10 +1,23 @@
 vi:
   english: "English"
   vietnamese: "Tiếng Việt"
+  layouts:
+    header:
+      home: "Trang chủ"
+      help: "Trợ giúp"
+      login: "Đăng nhập"
+    footer:
+      about: "Chi tiết"
+      contact: "Liên hệ"
+      news: "Tin tức"
+  users:
+    news:
+      sign_up: "Đăng kí"
   static_pages:
     home:
       home_title: "Trang chủ"
       home_detail_html: "Đây là trang chủ của ứng dụng mẫu <a href='http://www.railstutorial.org/'>Ruby on Rails Tutorial</a> "
+      sign_up: "Đăng kí ngay"
     help:
       help_title: "Trợ giúp"
       help_detail_html: "Nhận trợ giúp về Ruby on Rails Tutorial tại <a href='http://www.railstutorial.org/help'>Khu vực trợ giúp của Rails Tutorial </a>"

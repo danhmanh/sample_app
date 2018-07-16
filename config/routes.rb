@@ -4,6 +4,9 @@ Rails.application.routes.draw do
   get "/contact", to: "static_pages#contact"
   get "/about", to: "static_pages#about"
   root "static_pages#home"
+  resources :users, only: [:new, :show, :create]
+  get "/signup", to: "users#new"
+  post "/signup", to: "users#create"
   scope "(:locale)", locale: /en|vi/ do
     root to: "static_pages#home"
   end

@@ -1,4 +1,13 @@
 en:
+  login: "Login"
+  sessions:
+    create:
+      login_fail: "Invalid email/password combination"
+    new:
+      login: "Login"
+      password: "Password"
+      new_user: "New user?"
+      sign_up_now: "Sign up now!"
   english: "English"
   vietnamese: "Tiếng Việt"
   layouts:

@@ -1,4 +1,13 @@
 vi:
+  login: "Đăng nhập"
+  sessions:
+    create:
+      login_fail: "Tên đăng nhập hoặc mật khẩu không chính xác"
+    new:
+      login: "Đăng nhập"
+      password: "Mật khẩu"
+      new_user: "Bạn là thành viên mới?"
+      sign_up_now: "Đăng kí ngay!"
   english: "English"
   vietnamese: "Tiếng Việt"
   layouts:
@@ -6,6 +15,11 @@ vi:
       home: "Trang chủ"
       help: "Trợ giúp"
       login: "Đăng nhập"
+      profile: "Hồ sơ"
+      setting: "Cài đặt"
+      logout: "Đăng xuất"
+      user: "Người dùng"
+      account: "Tài khoản"
     footer:
       about: "Chi tiết"
       contact: "Liên hệ"

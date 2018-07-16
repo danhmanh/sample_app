@@ -12,7 +12,45 @@ en:
       news: "News"
   users:
     news:
-      sign_up: Sign up
+      sign_up: "Sign up"
+    new:
+      sign_up: "Sign up"
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      password_confirmation: "Password Confirmation"
+      create-btn: "Create account"
+    create:
+      welcome: "Welcome to Sample App !"
+    forms:
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      password_confirmation: "Password Confirmation"
+    show:
+      cannot_find_user: "Can not find this user."
+  activerecord:
+    errors:
+      models:
+        user:
+          attributes:
+            name:
+              blank: "Name can't be blank"
+            email:
+              blank: "Email can't be blank"
+              invalid: "Invalid Email"
+              taken: "Email has already taken"
+            password:
+              blank: "Password can't be blank"
+              too_short: "Password too short"
+            password_confirmation:
+              confirmation: "Password does not match"
+  shared:
+    error_messages:
+      error_noti: "This form has "
+      error: " error"
+  errors:
+    format: "%{message}"
   static_pages:
     home:
       home_title: "Home"

@@ -8,6 +8,7 @@ en:
       password: "Password"
       new_user: "New user?"
       sign_up_now: "Sign up now!"
+      remember: "Remember me on this computer"
   english: "English"
   vietnamese: "Tiếng Việt"
   layouts:

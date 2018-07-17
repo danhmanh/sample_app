@@ -12,9 +12,12 @@ gem "uglifier", ">= 1.3.0"
 
 gem "bcrypt"
 gem "bootsnap", ">= 1.1.0", require: false
+gem "bootstrap-kaminari-views"
 gem "bootstrap-sass", "3.3.7"
 gem "config"
+gem "faker"
 gem "jquery-rails"
+gem "kaminari"
 gem "rubocop", "~> 0.54.0", require: false
 
 group :development, :test do

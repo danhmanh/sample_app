@@ -8,6 +8,7 @@ vi:
       password: "Mật khẩu"
       new_user: "Bạn là thành viên mới?"
       sign_up_now: "Đăng kí ngay!"
+      remember: "Nhớ tài khoản của tôi"
   english: "English"
   vietnamese: "Tiếng Việt"
   layouts:

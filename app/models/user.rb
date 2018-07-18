@@ -2,14 +2,12 @@ class User < ApplicationRecord
   attr_accessor :remember_token
   VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
 
-  validates :name, presence: true,
-            length: {maximum: Settings.name_max_length}
+  validates :name, presence: true, length: {maximum: Settings.name_max_length}
   validates :email, presence: true,
-            length: {maximum: Settings.email_max_length},
-            format: {with: VALID_EMAIL_REGEX},
-            uniqueness: {case_sensitive: false}
+    length: {maximum: Settings.email_max_length},
+    format: {with: VALID_EMAIL_REGEX}, uniqueness: {case_sensitive: false}
   validates :password, presence: true,
-            length: {minimum: Settings.password_min_length}
+    length: {minimum: Settings.password_min_length}, allow_nil: true
 
   before_save :email_downcase
 
@@ -28,8 +26,12 @@ class User < ApplicationRecord
     update_attribute :remember_digest, nil
   end
 
+  def current_user? user
+    user == self
+  end
+
   class << self
-    def self.digest string
+    def digest string
       cost = if ActiveModel::SecurePassword.min_cost
                BCrypt::Engine::MIN_COST
              else
@@ -39,7 +41,7 @@ class User < ApplicationRecord
       BCrypt::Password.create(string, cost: cost)
     end
 
-    def self.new_token
+    def new_token
       SecureRandom.urlsafe_base64
     end
   end

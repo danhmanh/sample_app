@@ -1,4 +1,10 @@
 vi:
+  views:
+    pagination:
+      previous: "Trước"
+      next: "Tiếp"
+      first: "Đầu trang"
+      last: "Cuối trang"
   login: "Đăng nhập"
   sessions:
     create:
@@ -26,8 +32,13 @@ vi:
       contact: "Liên hệ"
       news: "Tin tức"
   users:
+    user:
+      sure: "Bạn có chắc chắn không?"
+      delete: "Xóa"
     news:
       sign_up: "Đăng kí"
+    index:
+      all_users: "Tất cả người dùng"
     new:
       sign_up: "Đăng kí"
       name: "Tên"
@@ -39,7 +50,16 @@ vi:
       welcome: "Chào mừng bạn đến với Sample App !"
     show:
       cannot_find_user: "Không thể tìm thấy người dùng này."
-    forms:
+    edit:
+      edit: "Chỉnh sửa hồ sơ"
+      edit-btn: "Chỉnh sửa"
+      change: "Thay đổi"
+      please_log_in: "Vui lòng đăng nhập để thực hiện."
+    update:
+      update_success: "Cập nhật hồ sơ thành công !"
+    destroy:
+      delete_success: "Xóa người dùng thành công !"
+    form:
       name: "Tên"
       email: "Email"
       password: "Mật khẩu"

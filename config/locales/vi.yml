@@ -48,6 +48,7 @@ vi:
       create-btn: "Tạo tài khoản"
     create:
       welcome: "Chào mừng bạn đến với Sample App !"
+      please_check_mail: "Hãy kiểm tra hộp thư đến của bạn"
     show:
       cannot_find_user: "Không thể tìm thấy người dùng này."
     edit:
@@ -103,3 +104,9 @@ vi:
     contact:
       contact_title: "Liên hệ"
       contact_detail_html: "Liên hệ Ruby on Rails Tutorial về ứng dụng mẫu tại <a href='http://www.railstutorial.org/contact'>trang liên hệ</a>."
+  user_mailer:
+    account_activation:
+      activate: "Kích hoạt"
+      hi: "Xin chào"
+      welcome: "Chào mừng bạn đã đến với Sample App"
+      account_activation: "Kích hoạt tài khoản"

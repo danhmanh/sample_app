@@ -3,3 +3,4 @@ email_max_length: 255
 password_min_length: 5
 gravatar_size: 50
 pagination_per: 5
+hours_max: 2
